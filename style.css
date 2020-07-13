@@ -1,5 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     line-height: 1em;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(253, 255, 228);
+}
+
+.submitField {
+    border: 2px solid brown;
+    width: 25%;
 }
