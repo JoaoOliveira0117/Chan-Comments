@@ -11,7 +11,80 @@ body {
     background-color: rgb(253, 255, 228);
 }
 
+header {
+    margin: 30px;
+}
+
 .submitField {
-    border: 2px solid brown;
+    margin: auto;
     width: 25%;
+    border: 1px solid brown;
+    border-radius: 15px;
+    padding: 24px;
+    text-align: left;
+    position: relative;
+}
+
+.inputs form table tr th {
+    padding-top: 10px;
+}
+
+.inputs form table tr th label {
+    padding-right: 8px;
+} 
+
+.inputs form table tr th .namearea,.textarea {
+    padding: 5px;
+    border: 1px solid;
+    border-radius: 8px;
+    resize: none;
+    transition: border 0.5s ease;
+}
+
+.inputs form table tr th .namearea:focus,.textarea:focus {
+    border: 2px solid;
+    transition: border 0.5s ease;
+}
+
+.inputs form table tr th .submitButton {
+    padding: 8px;
+    border: 0px;
+    border-radius: 8px;
+    background-color: brown;
+    color: white;
+    position: absolute;
+    right: 20px;
+    bottom: -15px;
+}
+
+.container  {
+    margin: 24px;
+}
+
+.messageTest {
+    padding: 24px;
+    margin-top: 1.1em;
+    border-top: 1px solid brown;
+    border-left: 4px solid brown;
+    position: relative;
+}
+
+.messageTest .image {
+    justify-content: left;
+    position: relative;
+}
+
+.messageTest .text {
+    position: absolute;
+    top: 25px;
+    left: 250px;
+}
+
+.messageTest .text .nome {
+    font-size: 24px;
+    padding: 0 0 1em 0;
+}
+
+.messageTest .text .comment{
+    padding-left: 1em;
 }
